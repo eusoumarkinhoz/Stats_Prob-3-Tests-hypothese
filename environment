@@ -1,0 +1,472 @@
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Partie 2 _ Tests-hypthese/Stats-Tests_Hypotheses.ipynb
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git add Partie\ 2\ _\ Tests-hypthese/Stats-Tests_Hypotheses.ipynb 
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git commit -m "test"
+[main b3f8dbb] test
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 586 bytes | 586.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/eusoumarkinhoz/Stats_Prob-3-Tests-hypothese.git
+   ec24aa0..b3f8dbb  main -> main
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda env list
+# conda environments:
+#
+base                  *  /home/marcos.centurion@Digital-Grenoble.local/anaconda3
+stats                    /home/marcos.centurion@Digital-Grenoble.local/anaconda3/envs/stats
+
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda activate stats
+(stats) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda list
+# packages in environment at /home/marcos.centurion@Digital-Grenoble.local/anaconda3/envs/stats:
+#
+# Name                    Version                   Build  Channel
+_libgcc_mutex             0.1                        main  
+_openmp_mutex             5.1                       1_gnu  
+aiofiles                  22.1.0          py311h06a4308_0  
+aiosqlite                 0.18.0          py311h06a4308_0  
+alembic                   1.12.0                   pypi_0    pypi
+anyio                     4.0.0                    pypi_0    pypi
+argon2-cffi               23.1.0                   pypi_0    pypi
+argon2-cffi-bindings      21.2.0          py311h5eee18b_0  
+arrow                     1.3.0                    pypi_0    pypi
+asttokens                 2.4.0                    pypi_0    pypi
+async-generator           1.10                     pypi_0    pypi
+async-lru                 2.0.4                    pypi_0    pypi
+attrs                     23.1.0          py311h06a4308_0  
+babel                     2.13.1                   pypi_0    pypi
+backcall                  0.2.0              pyhd3eb1b0_0  
+beautifulsoup4            4.12.2          py311h06a4308_0  
+bleach                    6.1.0                    pypi_0    pypi
+brotlipy                  0.7.0           py311h5eee18b_1002  
+bzip2                     1.0.8                h7b6447c_0  
+ca-certificates           2023.08.22           h06a4308_0  
+certifi                   2023.7.22       py311h06a4308_0  
+certipy                   0.1.3                    pypi_0    pypi
+cffi                      1.16.0                   pypi_0    pypi
+charset-normalizer        3.3.1                    pypi_0    pypi
+comm                      0.1.4                    pypi_0    pypi
+contourpy                 1.1.1                    pypi_0    pypi
+cryptography              41.0.3          py311h130f0dd_0  
+cycler                    0.12.1                   pypi_0    pypi
+debugpy                   1.8.0                    pypi_0    pypi
+decorator                 5.1.1              pyhd3eb1b0_0  
+defusedxml                0.7.1              pyhd3eb1b0_0  
+entrypoints               0.4             py311h06a4308_0  
+executing                 2.0.0                    pypi_0    pypi
+fastjsonschema            2.18.1                   pypi_0    pypi
+fonttools                 4.43.1                   pypi_0    pypi
+fqdn                      1.5.1                    pypi_0    pypi
+greenlet                  3.0.0                    pypi_0    pypi
+icu                       73.1                 h6a678d5_0  
+idna                      3.4             py311h06a4308_0  
+ipykernel                 6.26.0                   pypi_0    pypi
+ipython                   8.16.1                   pypi_0    pypi
+ipython_genutils          0.2.0              pyhd3eb1b0_1  
+ipywidgets                8.1.1                    pypi_0    pypi
+isoduration               20.11.0                  pypi_0    pypi
+jedi                      0.19.1                   pypi_0    pypi
+jinja2                    3.1.2           py311h06a4308_0  
+joblib                    1.3.2                    pypi_0    pypi
+json5                     0.9.14                   pypi_0    pypi
+jsonpointer               2.4                      pypi_0    pypi
+jsonschema                4.19.1                   pypi_0    pypi
+jsonschema-specifications 2023.7.1                 pypi_0    pypi
+jupyter                   1.0.0                    pypi_0    pypi
+jupyter-client            8.5.0                    pypi_0    pypi
+jupyter-console           6.6.3                    pypi_0    pypi
+jupyter-core              5.4.0                    pypi_0    pypi
+jupyter-events            0.8.0                    pypi_0    pypi
+jupyter-lsp               2.2.0                    pypi_0    pypi
+jupyter-server            2.9.0                    pypi_0    pypi
+jupyter-server-terminals  0.4.4                    pypi_0    pypi
+jupyter-telemetry         0.1.0                    pypi_0    pypi
+jupyter_client            7.4.9           py311h06a4308_0  
+jupyter_core              5.3.0           py311h06a4308_0  
+jupyter_events            0.6.3           py311h06a4308_0  
+jupyter_server            1.23.4          py311h06a4308_0  
+jupyter_server_fileid     0.9.0           py311h06a4308_0  
+jupyter_server_ydoc       0.8.0           py311h06a4308_1  
+jupyter_ydoc              0.2.4           py311h06a4308_0  
+jupyterhub                4.0.2                    pypi_0    pypi
+jupyterlab                4.0.7                    pypi_0    pypi
+jupyterlab-pygments       0.2.2                    pypi_0    pypi
+jupyterlab-server         2.25.0                   pypi_0    pypi
+jupyterlab-widgets        3.0.9                    pypi_0    pypi
+jupyterlab_pygments       0.1.2                      py_0  
+jupyterlab_server         2.22.0          py311h06a4308_0  
+kiwisolver                1.4.5                    pypi_0    pypi
+ld_impl_linux-64          2.38                 h1181459_1  
+libffi                    3.4.4                h6a678d5_0  
+libgcc-ng                 11.2.0               h1234567_1  
+libgomp                   11.2.0               h1234567_1  
+libsodium                 1.0.18               h7b6447c_0  
+libstdcxx-ng              11.2.0               h1234567_1  
+libuuid                   1.41.5               h5eee18b_0  
+libxml2                   2.10.4               hf1b16e4_1  
+libxslt                   1.1.37               h5eee18b_1  
+lxml                      4.9.3           py311hdbbb534_0  
+mako                      1.2.4                    pypi_0    pypi
+markupsafe                2.1.3                    pypi_0    pypi
+matplotlib                3.8.0                    pypi_0    pypi
+matplotlib-inline         0.1.6           py311h06a4308_0  
+mistune                   3.0.2                    pypi_0    pypi
+nbclassic                 0.5.5           py311h06a4308_0  
+nbclient                  0.8.0                    pypi_0    pypi
+nbconvert                 7.9.2                    pypi_0    pypi
+nbformat                  5.9.2           py311h06a4308_0  
+ncurses                   6.4                  h6a678d5_0  
+nest-asyncio              1.5.8                    pypi_0    pypi
+notebook                  7.0.6                    pypi_0    pypi
+notebook-shim             0.2.3                    pypi_0    pypi
+numpy                     1.26.1                   pypi_0    pypi
+oauthlib                  3.2.2                    pypi_0    pypi
+openssl                   1.1.1w               h7f8727e_0  
+overrides                 7.4.0                    pypi_0    pypi
+packaging                 23.2                     pypi_0    pypi
+pamela                    1.1.0                    pypi_0    pypi
+pandas                    2.1.1                    pypi_0    pypi
+pandocfilters             1.5.0              pyhd3eb1b0_0  
+parso                     0.8.3              pyhd3eb1b0_0  
+pexpect                   4.8.0              pyhd3eb1b0_3  
+pickleshare               0.7.5           pyhd3eb1b0_1003  
+pillow                    10.1.0                   pypi_0    pypi
+pip                       23.3            py311h06a4308_0  
+platformdirs              3.11.0                   pypi_0    pypi
+prometheus-client         0.17.1                   pypi_0    pypi
+prometheus_client         0.14.1          py311h06a4308_0  
+prompt-toolkit            3.0.39                   pypi_0    pypi
+psutil                    5.9.6                    pypi_0    pypi
+ptyprocess                0.7.0              pyhd3eb1b0_2  
+pure_eval                 0.2.2              pyhd3eb1b0_0  
+pycparser                 2.21               pyhd3eb1b0_0  
+pygments                  2.16.1                   pypi_0    pypi
+pyopenssl                 23.2.0          py311h06a4308_0  
+pyparsing                 3.1.1                    pypi_0    pypi
+pyrsistent                0.18.0          py311h5eee18b_0  
+pysocks                   1.7.1           py311h06a4308_0  
+python                    3.11.0               h7a1cb2a_3  
+python-dateutil           2.8.2              pyhd3eb1b0_0  
+python-fastjsonschema     2.16.2          py311h06a4308_0  
+python-json-logger        2.0.7           py311h06a4308_0  
+pytz                      2023.3.post1    py311h06a4308_0  
+pyyaml                    6.0.1           py311h5eee18b_0  
+pyzmq                     25.1.1                   pypi_0    pypi
+qtconsole                 5.4.4                    pypi_0    pypi
+qtpy                      2.4.1                    pypi_0    pypi
+readline                  8.2                  h5eee18b_0  
+referencing               0.30.2                   pypi_0    pypi
+requests                  2.31.0          py311h06a4308_0  
+rfc3339-validator         0.1.4           py311h06a4308_0  
+rfc3986-validator         0.1.1           py311h06a4308_0  
+rpds-py                   0.10.6                   pypi_0    pypi
+ruamel-yaml               0.18.2                   pypi_0    pypi
+ruamel-yaml-clib          0.2.8                    pypi_0    pypi
+scikit-learn              1.3.2                    pypi_0    pypi
+scipy                     1.11.3                   pypi_0    pypi
+seaborn                   0.13.0                   pypi_0    pypi
+send2trash                1.8.2                    pypi_0    pypi
+setuptools                68.0.0          py311h06a4308_0  
+six                       1.16.0             pyhd3eb1b0_1  
+sniffio                   1.3.0                    pypi_0    pypi
+soupsieve                 2.5             py311h06a4308_0  
+sqlalchemy                2.0.22                   pypi_0    pypi
+sqlite                    3.41.2               h5eee18b_0  
+stack-data                0.6.3                    pypi_0    pypi
+stack_data                0.2.0              pyhd3eb1b0_0  
+terminado                 0.17.1          py311h06a4308_0  
+threadpoolctl             3.2.0                    pypi_0    pypi
+tinycss2                  1.2.1           py311h06a4308_0  
+tk                        8.6.12               h1ccaba5_0  
+tornado                   6.3.3           py311h5eee18b_0  
+traitlets                 5.12.0                   pypi_0    pypi
+types-python-dateutil     2.8.19.14                pypi_0    pypi
+typing-extensions         4.7.1           py311h06a4308_0  
+typing_extensions         4.7.1           py311h06a4308_0  
+tzdata                    2023.3                   pypi_0    pypi
+uri-template              1.3.0                    pypi_0    pypi
+urllib3                   2.0.7                    pypi_0    pypi
+wcwidth                   0.2.8                    pypi_0    pypi
+webcolors                 1.13                     pypi_0    pypi
+webencodings              0.5.1                    pypi_0    pypi
+websocket-client          1.6.4                    pypi_0    pypi
+wheel                     0.41.2          py311h06a4308_0  
+widgetsnbextension        4.0.9                    pypi_0    pypi
+xz                        5.4.2                h5eee18b_0  
+y-py                      0.5.9           py311h52d8a92_0  
+yaml                      0.2.5                h7b6447c_0  
+ypy-websocket             0.8.2           py311h06a4308_0  
+zeromq                    4.3.4                h2531618_0  
+zlib                      1.2.13               h5eee18b_0  
+(stats) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ pip freeze
+aiofiles @ file:///croot/aiofiles_1683773582346/work
+aiosqlite @ file:///croot/aiosqlite_1683773899903/work
+alembic==1.12.0
+anyio @ file:///work/ci_py311/anyio_1676823771847/work/dist
+argon2-cffi @ file:///opt/conda/conda-bld/argon2-cffi_1645000214183/work
+argon2-cffi-bindings @ file:///work/ci_py311/argon2-cffi-bindings_1676823553406/work
+arrow==1.3.0
+asttokens @ file:///opt/conda/conda-bld/asttokens_1646925590279/work
+async-generator==1.10
+async-lru==2.0.4
+attrs @ file:///croot/attrs_1695717823297/work
+Babel @ file:///work/ci_py311/babel_1676825020543/work
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+beautifulsoup4 @ file:///croot/beautifulsoup4-split_1681493039619/work
+bleach==6.1.0
+brotlipy==0.7.0
+certifi @ file:///croot/certifi_1690232220950/work/certifi
+certipy==0.1.3
+cffi @ file:///work/ci_py311/cffi_1676822533496/work
+charset-normalizer==3.3.1
+comm==0.1.4
+contourpy==1.1.1
+cryptography @ file:///croot/cryptography_1694444244250/work
+cycler==0.12.1
+debugpy @ file:///croot/debugpy_1690905042057/work
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+defusedxml @ file:///tmp/build/80754af9/defusedxml_1615228127516/work
+entrypoints @ file:///work/ci_py311/entrypoints_1676823319002/work
+executing==2.0.0
+fastjsonschema==2.18.1
+fonttools==4.43.1
+fqdn==1.5.1
+greenlet==3.0.0
+idna @ file:///work/ci_py311/idna_1676822698822/work
+ipykernel @ file:///croot/ipykernel_1691121631942/work
+ipython @ file:///croot/ipython_1694181358621/work
+ipython-genutils @ file:///tmp/build/80754af9/ipython_genutils_1606773439826/work
+ipywidgets==8.1.1
+isoduration==20.11.0
+jedi @ file:///work/ci_py311_2/jedi_1679336495545/work
+Jinja2 @ file:///work/ci_py311/jinja2_1676823587943/work
+joblib==1.3.2
+json5==0.9.14
+jsonpointer==2.4
+jsonschema @ file:///croot/jsonschema_1678983421637/work
+jsonschema-specifications==2023.7.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.8.0
+jupyter-lsp==2.2.0
+jupyter-server @ file:///work/ci_py311/jupyter_server_1676824947163/work
+jupyter-telemetry==0.1.0
+jupyter-ydoc @ file:///croot/jupyter_ydoc_1683747223142/work
+jupyter_client @ file:///work/ci_py311/jupyter_client_1676823491351/work
+jupyter_core==5.4.0
+jupyter_server_fileid @ file:///croot/jupyter_server_fileid_1684273577568/work
+jupyter_server_terminals==0.4.4
+jupyter_server_ydoc @ file:///croot/jupyter_server_ydoc_1686767404829/work
+jupyterhub==4.0.2
+jupyterlab==4.0.7
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.9
+jupyterlab_server @ file:///croot/jupyterlab_server_1680792501448/work
+kiwisolver==1.4.5
+lxml @ file:///croot/lxml_1695058164555/work
+Mako==1.2.4
+MarkupSafe==2.1.3
+matplotlib==3.8.0
+matplotlib-inline @ file:///work/ci_py311/matplotlib-inline_1676823841154/work
+mistune==3.0.2
+nbclassic @ file:///croot/nbclassic_1681756170010/work
+nbclient==0.8.0
+nbconvert==7.9.2
+nbformat @ file:///croot/nbformat_1694616755618/work
+nest-asyncio==1.5.8
+notebook==7.0.6
+notebook_shim @ file:///work/ci_py311/notebook-shim_1676825053954/work
+numpy==1.26.1
+oauthlib==3.2.2
+overrides==7.4.0
+packaging==23.2
+pamela==1.1.0
+pandas==2.1.1
+pandocfilters @ file:///opt/conda/conda-bld/pandocfilters_1643405455980/work
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==10.1.0
+platformdirs==3.11.0
+prometheus-client==0.17.1
+prompt-toolkit @ file:///work/ci_py311/prompt-toolkit_1676824857154/work
+psutil @ file:///work/ci_py311_2/psutil_1679337388738/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+pure-eval @ file:///opt/conda/conda-bld/pure_eval_1646925070566/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+Pygments @ file:///croot/pygments_1684279966437/work
+pyOpenSSL @ file:///croot/pyopenssl_1690223430423/work
+pyparsing==3.1.1
+pyrsistent @ file:///work/ci_py311/pyrsistent_1676823088752/work
+PySocks @ file:///work/ci_py311/pysocks_1676822712504/work
+python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
+python-json-logger @ file:///croot/python-json-logger_1683823803357/work
+pytz @ file:///croot/pytz_1695131579487/work
+PyYAML @ file:///croot/pyyaml_1698096049011/work
+pyzmq @ file:///work/ci_py311/pyzmq_1676918885689/work
+qtconsole==5.4.4
+QtPy==2.4.1
+referencing==0.30.2
+requests @ file:///croot/requests_1690400202158/work
+rfc3339-validator @ file:///croot/rfc3339-validator_1683077044675/work
+rfc3986-validator @ file:///croot/rfc3986-validator_1683058983515/work
+rpds-py==0.10.6
+ruamel.yaml==0.18.2
+ruamel.yaml.clib==0.2.8
+scikit-learn==1.3.2
+scipy==1.11.3
+seaborn==0.13.0
+Send2Trash==1.8.2
+six @ file:///tmp/build/80754af9/six_1644875935023/work
+sniffio @ file:///work/ci_py311/sniffio_1676823742530/work
+soupsieve @ file:///croot/soupsieve_1696347547217/work
+SQLAlchemy==2.0.22
+stack-data @ file:///opt/conda/conda-bld/stack_data_1646927590127/work
+terminado @ file:///work/ci_py311/terminado_1677696151350/work
+threadpoolctl==3.2.0
+tinycss2 @ file:///work/ci_py311/tinycss2_1676823757641/work
+tornado @ file:///croot/tornado_1696936946304/work
+traitlets==5.12.0
+types-python-dateutil==2.8.19.14
+typing_extensions @ file:///croot/typing_extensions_1690297465030/work
+tzdata==2023.3
+uri-template==1.3.0
+urllib3==2.0.7
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.6.4
+widgetsnbextension==4.0.9
+y-py @ file:///croot/y-py_1683555143488/work
+ypy-websocket @ file:///croot/ypy-websocket_1684171737040/work
+(stats) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ pip freeze | wc
+    140     274    5624
+(stats) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda create --name 
+stat3 python=3.11
+Retrieving notices: ...working... done
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 23.7.4
+  latest version: 23.10.0
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+Or to minimize the number of packages updated during conda update use
+
+     conda install conda=23.10.0
+
+
+
+## Package Plan ##
+
+  environment location: /home/marcos.centurion@Digital-Grenoble.local/anaconda3/envs/stat3
+
+  added / updated specs:
+    - python=3.11
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    openssl-3.0.12             |       h7f8727e_0         5.2 MB
+    ------------------------------------------------------------
+                                           Total:         5.2 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      pkgs/main/linux-64::_libgcc_mutex-0.1-main 
+  _openmp_mutex      pkgs/main/linux-64::_openmp_mutex-5.1-1_gnu 
+  bzip2              pkgs/main/linux-64::bzip2-1.0.8-h7b6447c_0 
+  ca-certificates    pkgs/main/linux-64::ca-certificates-2023.08.22-h06a4308_0 
+  ld_impl_linux-64   pkgs/main/linux-64::ld_impl_linux-64-2.38-h1181459_1 
+  libffi             pkgs/main/linux-64::libffi-3.4.4-h6a678d5_0 
+  libgcc-ng          pkgs/main/linux-64::libgcc-ng-11.2.0-h1234567_1 
+  libgomp            pkgs/main/linux-64::libgomp-11.2.0-h1234567_1 
+  libstdcxx-ng       pkgs/main/linux-64::libstdcxx-ng-11.2.0-h1234567_1 
+  libuuid            pkgs/main/linux-64::libuuid-1.41.5-h5eee18b_0 
+  ncurses            pkgs/main/linux-64::ncurses-6.4-h6a678d5_0 
+  openssl            pkgs/main/linux-64::openssl-3.0.12-h7f8727e_0 
+  pip                pkgs/main/linux-64::pip-23.3-py311h06a4308_0 
+  python             pkgs/main/linux-64::python-3.11.5-h955ad1f_0 
+  readline           pkgs/main/linux-64::readline-8.2-h5eee18b_0 
+  setuptools         pkgs/main/linux-64::setuptools-68.0.0-py311h06a4308_0 
+  sqlite             pkgs/main/linux-64::sqlite-3.41.2-h5eee18b_0 
+  tk                 pkgs/main/linux-64::tk-8.6.12-h1ccaba5_0 
+  tzdata             pkgs/main/noarch::tzdata-2023c-h04d1e81_0 
+  wheel              pkgs/main/linux-64::wheel-0.41.2-py311h06a4308_0 
+  xz                 pkgs/main/linux-64::xz-5.4.2-h5eee18b_0 
+  zlib               pkgs/main/linux-64::zlib-1.2.13-h5eee18b_0 
+
+
+Proceed ([y]/n)? 
+
+
+Downloading and Extracting Packages
+                                                                                                                                 
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+#
+# To activate this environment, use
+#
+#     $ conda activate stat3
+#
+# To deactivate an active environment, use
+#
+#     $ conda deactivate
+
+(stats) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda deactivate
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda env list
+# conda environments:
+#
+base                  *  /home/marcos.centurion@Digital-Grenoble.local/anaconda3
+stat3                    /home/marcos.centurion@Digital-Grenoble.local/anaconda3/envs/stat3
+stats                    /home/marcos.centurion@Digital-Grenoble.local/anaconda3/envs/stats
+
+(base) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ conda activate stat3
+(stat3) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ pip freeze
+(stat3) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ pip install numpy
+Collecting numpy
+  Downloading numpy-1.26.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 61.2/61.2 kB 544.8 kB/s eta 0:00:00
+Downloading numpy-1.26.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (18.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 18.2/18.2 MB 29.1 MB/s eta 0:00:00
+Installing collected packages: numpy
+Successfully installed numpy-1.26.2
+(stat3) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ pip freeze
+numpy==1.26.2
+(stat3) marcos.centurion@Digital-Grenoble.local@CN-DATA8-02:~/campus/Stat_prob/Stats_Prob 3-Tests-hypothese$ 
